@@ -1,0 +1,100 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Adjust the height as needed */
+}
+
+.note-form {
+    width: 60%;
+    /* Adjust the width as needed */
+    max-width: 500px;
+    /* Maximum width for larger screens */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.note-input,
+.note-textarea {
+    width: 50%;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 0.5px solid #ccc;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    /* Increase font size for better visibility */
+}
+
+.add-button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    /* Increase font size for better visibility */
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    /* Adjust the height as needed */
+}
+
+.note-form {
+    width: 60%;
+    /* Adjust the width as needed */
+    max-width: 500px;
+    /* Maximum width for larger screens */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add box shadow for depth */
+}
+
+.note-input,
+.note-textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    /* Increase font size for better visibility */
+}
+
+.add-button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    /* Increase font size for better visibility */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+}
+
+.app-container {
+    margin-top: 50px;
+    /* Adjust the margin-top as needed */
+}
